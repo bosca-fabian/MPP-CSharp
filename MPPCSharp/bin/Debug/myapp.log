@@ -1,0 +1,877 @@
+2023-03-29 03:27:44,842 [1] INFO MPPCSharp.Program - Hello logging world!
+2023-03-29 03:27:45,163 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>saving task {}</format><args>{Entity{id=41acd2a1-dee9-48e4-8cfd-9b87a7918bab}}</args></log4net.Error>
+2023-03-29 03:27:50,993 [1] DEBUG TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Result after add trial {}</format><args>{1}</args></log4net.Error>
+2023-03-29 03:29:52,956 [1] INFO MPPCSharp.Program - Hello logging world!
+2023-03-29 13:13:54,228 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, deleteting trial entity with id {}</format><args>{117e0d59-174e-4279-a400-b391dc90701a}</args></log4net.Error>
+2023-03-29 13:13:54,381 [1] ERROR TrialRepository - Database delete trial error : Npgsql.PostgresException (0x80004005): 42883: operator does not exist: character varying = uuid
+
+POSITION: 30
+   at Npgsql.Internal.NpgsqlConnector.<<ReadMessage>g__ReadMessageLong|231_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteNonQuery>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at ProiectMPP.Repository.TrialRepository.delete(Guid entity) in D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\Repository\TrialRepository.cs:line 69
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: operator does not exist: character varying = uuid
+    Hint: No operator matches the given name and argument types. You might need to add explicit type casts.
+    Position: 30
+    File: parse_oper.c
+    Line: 656
+    Routine: op_error
+2023-03-29 13:14:43,520 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, deleteting trial entity with id {}</format><args>{117e0d59-174e-4279-a400-b391dc90701a}</args></log4net.Error>
+2023-03-29 13:14:43,592 [1] DEBUG TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Result after delete trial {}</format><args>{0}</args></log4net.Error>
+2023-03-29 13:15:17,083 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, deleteting trial entity with id {}</format><args>{117e0d59-174e-4279-a400-b391dc90701a}</args></log4net.Error>
+2023-03-29 13:15:41,750 [1] DEBUG TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Result after delete trial {}</format><args>{0}</args></log4net.Error>
+2023-03-29 13:18:27,581 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, deleteting trial entity with id {}</format><args>{117e0d59-174e-4279-a400-b391dc90701a}</args></log4net.Error>
+2023-03-29 13:22:32,889 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, deleteting trial entity with id {}</format><args>{117e0d59-174e-4279-a400-b391dc90701a}</args></log4net.Error>
+2023-03-29 13:22:36,658 [1] DEBUG TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Result after delete trial {}</format><args>{0}</args></log4net.Error>
+2023-03-29 13:23:05,216 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, deleteting trial entity with id {}</format><args>{117e0d59-174e-4279-a400-b391dc90701a}</args></log4net.Error>
+2023-03-29 13:24:07,527 [1] DEBUG TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Result after delete trial {}</format><args>{0}</args></log4net.Error>
+2023-03-29 13:26:19,775 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, deleteting trial entity with id {}</format><args>{117e0d59-174e-4279-a400-b391dc90701a}</args></log4net.Error>
+2023-03-29 13:26:26,333 [1] DEBUG TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Result after delete trial {}</format><args>{0}</args></log4net.Error>
+2023-03-29 13:29:09,383 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, deleteting trial entity with id {}</format><args>{117e0d59-174e-4279-a400-b391dc90701a}</args></log4net.Error>
+2023-03-29 13:29:15,633 [1] DEBUG TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Result after delete trial {}</format><args>{1}</args></log4net.Error>
+2023-03-29 13:31:43,852 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Updating entity with ID {}</format><args>{31c31511-56bd-4a10-a4ab-9d165afe0777}</args></log4net.Error>
+2023-03-29 13:31:43,964 [1] ERROR TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Database error updating trial {}</format><args>{Npgsql.PostgresException (0x80004005): 42883: operator does not exist: character varying = uuid
+
+POSITION: 88
+   at Npgsql.Internal.NpgsqlConnector.<<ReadMessage>g__ReadMessageLong|231_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteNonQuery>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at ProiectMPP.Repository.TrialRepository.update(Trial entity) in D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\Repository\TrialRepository.cs:line 178
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: operator does not exist: character varying = uuid
+    Hint: No operator matches the given name and argument types. You might need to add explicit type casts.
+    Position: 88
+    File: parse_oper.c
+    Line: 656
+    Routine: op_error}</args></log4net.Error>
+2023-03-29 13:34:05,099 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Updating entity with ID {}</format><args>{31c31511-56bd-4a10-a4ab-9d165afe0777}</args></log4net.Error>
+2023-03-29 13:34:05,199 [1] ERROR TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Database error updating trial {}</format><args>{Npgsql.PostgresException (0x80004005): 42804: column "distance" is of type integer but expression is of type text
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.<<ReadMessage>g__ReadMessageLong|231_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteNonQuery>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at ProiectMPP.Repository.TrialRepository.update(Trial entity) in D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\Repository\TrialRepository.cs:line 178
+  Exception data:
+    Severity: ERROR
+    SqlState: 42804
+    MessageText: column "distance" is of type integer but expression is of type text
+    Hint: You will need to rewrite or cast the expression.
+    Position: 31
+    File: parse_target.c
+    Line: 595
+    Routine: transformAssignedExpr}</args></log4net.Error>
+2023-03-29 13:37:47,570 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Updating entity with ID {}</format><args>{31c31511-56bd-4a10-a4ab-9d165afe0777}</args></log4net.Error>
+2023-03-29 13:38:14,237 [1] ERROR TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Database error updating trial {}</format><args>{Npgsql.PostgresException (0x80004005): 42703: column "tdesc" does not exist
+
+POSITION: 66
+   at Npgsql.Internal.NpgsqlConnector.<<ReadMessage>g__ReadMessageLong|231_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteNonQuery>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at ProiectMPP.Repository.TrialRepository.update(Trial entity)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "tdesc" does not exist
+    Position: 66
+    File: parse_relation.c
+    Line: 3661
+    Routine: errorMissingColumn}</args></log4net.Error>
+2023-03-29 13:38:18,056 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Updating entity with ID {}</format><args>{31c31511-56bd-4a10-a4ab-9d165afe0777}</args></log4net.Error>
+2023-03-29 13:38:39,295 [1] ERROR TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Database error updating trial {}</format><args>{Npgsql.PostgresException (0x80004005): 42804: column "distance" is of type integer but expression is of type text
+
+POSITION: 31
+   at Npgsql.Internal.NpgsqlConnector.<<ReadMessage>g__ReadMessageLong|231_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteNonQuery>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at ProiectMPP.Repository.TrialRepository.update(Trial entity)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42804
+    MessageText: column "distance" is of type integer but expression is of type text
+    Hint: You will need to rewrite or cast the expression.
+    Position: 31
+    File: parse_target.c
+    Line: 595
+    Routine: transformAssignedExpr}</args></log4net.Error>
+2023-03-29 13:38:42,736 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Updating entity with ID {}</format><args>{31c31511-56bd-4a10-a4ab-9d165afe0777}</args></log4net.Error>
+2023-03-29 13:40:52,613 [1] ERROR TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Database error updating trial {}</format><args>{Npgsql.PostgresException (0x80004005): 42703: column "trialname" of relation "Trial" does not exist
+
+POSITION: 35
+   at Npgsql.Internal.NpgsqlConnector.<<ReadMessage>g__ReadMessageLong|231_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteNonQuery>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at ProiectMPP.Repository.TrialRepository.update(Trial entity) in D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\Repository\TrialRepository.cs:line 175
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "trialname" of relation "Trial" does not exist
+    Position: 35
+    File: analyze.c
+    Line: 2471
+    Routine: transformUpdateTargetList}</args></log4net.Error>
+2023-03-29 13:40:55,195 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Updating entity with ID {}</format><args>{31c31511-56bd-4a10-a4ab-9d165afe0777}</args></log4net.Error>
+2023-03-29 13:40:59,764 [1] ERROR TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Database error updating trial {}</format><args>{Npgsql.PostgresException (0x80004005): 42703: column "trialname" of relation "Trial" does not exist
+
+POSITION: 35
+   at Npgsql.Internal.NpgsqlConnector.<<ReadMessage>g__ReadMessageLong|231_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteNonQuery>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at ProiectMPP.Repository.TrialRepository.update(Trial entity) in D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\Repository\TrialRepository.cs:line 175
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "trialname" of relation "Trial" does not exist
+    Position: 35
+    File: analyze.c
+    Line: 2471
+    Routine: transformUpdateTargetList}</args></log4net.Error>
+2023-03-29 13:41:04,366 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Updating entity with ID {}</format><args>{31c31511-56bd-4a10-a4ab-9d165afe0777}</args></log4net.Error>
+2023-03-29 13:42:07,476 [1] ERROR TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Database error updating trial {}</format><args>{Npgsql.PostgresException (0x80004005): 42703: column "trialname" of relation "Trial" does not exist
+
+POSITION: 35
+   at Npgsql.Internal.NpgsqlConnector.<<ReadMessage>g__ReadMessageLong|231_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteNonQuery>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at ProiectMPP.Repository.TrialRepository.update(Trial entity)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "trialname" of relation "Trial" does not exist
+    Position: 35
+    File: analyze.c
+    Line: 2471
+    Routine: transformUpdateTargetList}</args></log4net.Error>
+2023-03-29 13:42:11,427 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Updating entity with ID {}</format><args>{31c31511-56bd-4a10-a4ab-9d165afe0777}</args></log4net.Error>
+2023-03-29 13:42:52,727 [1] ERROR TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Database error updating trial {}</format><args>{Npgsql.PostgresException (0x80004005): 42703: column "trialname" of relation "Trial" does not exist
+
+POSITION: 35
+   at Npgsql.Internal.NpgsqlConnector.<<ReadMessage>g__ReadMessageLong|231_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteNonQuery>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at ProiectMPP.Repository.TrialRepository.update(Trial entity)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "trialname" of relation "Trial" does not exist
+    Position: 35
+    File: analyze.c
+    Line: 2471
+    Routine: transformUpdateTargetList}</args></log4net.Error>
+2023-03-29 13:42:58,336 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Updating entity with ID {}</format><args>{31c31511-56bd-4a10-a4ab-9d165afe0777}</args></log4net.Error>
+2023-03-29 13:43:13,679 [1] ERROR TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Database error updating trial {}</format><args>{Npgsql.PostgresException (0x80004005): 42703: column "trialdescription" of relation "Trial" does not exist
+
+POSITION: 53
+   at Npgsql.Internal.NpgsqlConnector.<<ReadMessage>g__ReadMessageLong|231_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlDataReader.<NextResult>d__47.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Npgsql.NpgsqlCommand.<ExecuteReader>d__124.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.<ExecuteNonQuery>d__112.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Npgsql.NpgsqlCommand.ExecuteNonQuery()
+   at ProiectMPP.Repository.TrialRepository.update(Trial entity)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column "trialdescription" of relation "Trial" does not exist
+    Position: 53
+    File: analyze.c
+    Line: 2471
+    Routine: transformUpdateTargetList}</args></log4net.Error>
+2023-03-29 13:43:20,109 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Updating entity with ID {}</format><args>{31c31511-56bd-4a10-a4ab-9d165afe0777}</args></log4net.Error>
+2023-03-29 13:43:30,582 [1] DEBUG TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Update result {}</format><args>{1}</args></log4net.Error>
+2023-03-29 19:55:30,835 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Updating entity with ID {}</format><args>{ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}</args></log4net.Error>
+2023-03-29 19:55:35,580 [1] DEBUG TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Update result {}</format><args>{1}</args></log4net.Error>
+2023-04-05 18:04:57,293 [1] INFO TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Updating entity with ID {}</format><args>{ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}</args></log4net.Error>
+2023-04-05 18:04:57,473 [1] DEBUG TrialRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Update result {}</format><args>{1}</args></log4net.Error>
+2023-04-06 15:38:12,942 [1] INFO ChildRepository - Reading all children!
+2023-04-06 16:06:28,456 [1] INFO ChildRepository - Reading all children!
+2023-04-06 16:06:56,877 [1] INFO ChildRepository - Reading all children!
+2023-04-06 16:12:11,506 [1] INFO ChildRepository - Reading all children!
+2023-04-06 16:12:11,936 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 16:13:16,778 [1] INFO ChildRepository - Reading all children!
+2023-04-06 16:13:16,929 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 16:18:30,388 [1] INFO ChildRepository - Reading all children!
+2023-04-06 16:18:30,541 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 16:37:24,058 [1] INFO ChildRepository - Reading all children!
+2023-04-06 16:37:24,125 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 16:41:53,892 [1] INFO ChildRepository - Reading all children!
+2023-04-06 16:41:53,964 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 16:42:24,935 [1] INFO ChildRepository - Reading all children!
+2023-04-06 16:42:25,005 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 16:49:17,739 [1] INFO ChildRepository - Reading all children!
+2023-04-06 16:49:17,813 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 16:49:33,805 [1] INFO ChildRepository - Reading all children!
+2023-04-06 16:49:33,871 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 16:55:49,502 [1] INFO ChildRepository - Reading all children!
+2023-04-06 16:55:49,567 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 16:58:52,247 [1] INFO ChildRepository - Reading all children!
+2023-04-06 16:58:52,316 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 17:03:46,452 [1] INFO ChildRepository - Reading all children!
+2023-04-06 17:03:46,537 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 17:05:38,063 [1] INFO ChildRepository - Reading all children!
+2023-04-06 17:05:38,131 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 17:08:45,963 [1] INFO ChildRepository - Reading all children!
+2023-04-06 17:08:46,030 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 17:11:22,431 [1] INFO ChildRepository - Reading all children!
+2023-04-06 17:11:22,519 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 17:21:54,718 [1] INFO ChildRepository - Reading all children!
+2023-04-06 17:21:54,837 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 17:27:53,374 [1] INFO ChildRepository - Reading all children!
+2023-04-06 17:27:53,521 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 17:29:05,980 [1] INFO ChildRepository - Reading all children!
+2023-04-06 17:29:06,142 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 17:30:55,133 [1] INFO ChildRepository - Reading all children!
+2023-04-06 17:30:55,265 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 17:32:03,701 [1] INFO ChildRepository - Reading all children!
+2023-04-06 17:32:03,837 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 18:04:02,038 [1] INFO ChildRepository - Reading all children!
+2023-04-06 18:04:02,169 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 18:06:34,180 [1] INFO ChildRepository - Reading all children!
+2023-04-06 18:06:34,248 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 18:10:04,115 [1] INFO ChildRepository - Reading all children!
+2023-04-06 18:10:04,190 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 18:24:17,964 [1] INFO ChildRepository - Reading all children!
+2023-04-06 18:24:18,045 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 18:25:04,482 [1] INFO ChildRepository - Reading all children!
+2023-04-06 18:25:04,551 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 18:25:04,553 [1] INFO TrialRepository - Reading all trials
+2023-04-06 18:25:04,568 [1] DEBUG TrialRepository - {Entity{id=1daa2c72-c66f-4bfd-be6c-fc399bc9beba}, Entity{id=0d4850e1-1720-404c-ae42-00b235d35c66}, Entity{id=8e780b59-84d5-4656-8821-2b1ad62755b7}, Entity{id=2b67147d-f343-49c1-8704-78f5825f0550}, Entity{id=41acd2a1-dee9-48e4-8cfd-9b87a7918bab}, Entity{id=31c31511-56bd-4a10-a4ab-9d165afe0777}, Entity{id=ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}}
+2023-04-06 18:25:43,195 [1] INFO ChildRepository - Reading all children!
+2023-04-06 18:25:43,266 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 18:25:43,269 [1] INFO TrialRepository - Reading all trials
+2023-04-06 18:25:43,271 [1] DEBUG TrialRepository - {Entity{id=1daa2c72-c66f-4bfd-be6c-fc399bc9beba}, Entity{id=0d4850e1-1720-404c-ae42-00b235d35c66}, Entity{id=8e780b59-84d5-4656-8821-2b1ad62755b7}, Entity{id=2b67147d-f343-49c1-8704-78f5825f0550}, Entity{id=41acd2a1-dee9-48e4-8cfd-9b87a7918bab}, Entity{id=31c31511-56bd-4a10-a4ab-9d165afe0777}, Entity{id=ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}}
+2023-04-06 18:27:56,322 [1] INFO ChildRepository - Reading all children!
+2023-04-06 18:27:56,394 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 18:27:56,397 [1] INFO TrialRepository - Reading all trials
+2023-04-06 18:27:56,399 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-06 18:29:08,756 [1] INFO ChildRepository - Reading all children!
+2023-04-06 18:29:08,830 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 18:29:08,833 [1] INFO TrialRepository - Reading all trials
+2023-04-06 18:29:08,835 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-06 18:30:27,625 [1] INFO ChildRepository - Reading all children!
+2023-04-06 18:30:27,699 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 18:30:27,703 [1] INFO TrialRepository - Reading all trials
+2023-04-06 18:30:27,705 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-06 18:34:11,154 [1] INFO ChildRepository - Reading all children!
+2023-04-06 18:34:11,225 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-06 18:34:11,228 [1] INFO TrialRepository - Reading all trials
+2023-04-06 18:34:11,230 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 05:25:33,789 [1] INFO ChildRepository - Reading all children!
+2023-04-12 05:25:33,936 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-12 05:25:33,949 [1] INFO TrialRepository - Reading all trials
+2023-04-12 05:25:33,953 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 05:25:36,050 [1] INFO TrialRepository - Reading all trials
+2023-04-12 05:25:36,051 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 05:26:02,809 [1] INFO TrialRepository - Reading all trials
+2023-04-12 05:26:02,809 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 05:38:13,229 [1] INFO ChildRepository - Reading all children!
+2023-04-12 05:38:13,300 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-12 05:38:13,305 [1] INFO TrialRepository - Reading all trials
+2023-04-12 05:38:13,308 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 05:38:16,925 [1] INFO TrialRepository - Reading all trials
+2023-04-12 05:38:16,926 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 05:39:10,129 [1] INFO ChildRepository - Reading all children!
+2023-04-12 05:39:10,199 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-12 05:39:10,201 [1] INFO TrialRepository - Reading all trials
+2023-04-12 05:39:10,203 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 05:39:11,556 [1] INFO TrialRepository - Reading all trials
+2023-04-12 05:39:11,557 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 05:44:50,625 [1] INFO ChildRepository - Reading all children!
+2023-04-12 05:44:50,766 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-12 05:44:50,769 [1] INFO TrialRepository - Reading all trials
+2023-04-12 05:44:50,771 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 05:44:51,749 [1] INFO TrialRepository - Reading all trials
+2023-04-12 05:44:51,750 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 05:55:41,265 [1] INFO ChildRepository - Reading all children!
+2023-04-12 05:55:41,340 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}}
+2023-04-12 05:55:41,343 [1] INFO TrialRepository - Reading all trials
+2023-04-12 05:55:41,346 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 05:55:42,867 [1] INFO TrialRepository - Reading all trials
+2023-04-12 05:55:42,868 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 05:56:04,793 [1] DEBUG ChildRepository - insert into "Child" (id, "firstName", "lastName", "age") values (@id, @fName, @lName, @age);
+2023-04-12 05:56:04,832 [1] INFO ChildRepository - 1
+2023-04-12 05:56:04,832 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task child {} trial {} into DB</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24, 2b67147d-f343-49c1-8704-78f5825f0550}</args></log4net.Error>
+2023-04-12 05:56:04,860 [1] DEBUG ChildRepository - 1
+2023-04-12 05:56:04,860 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task child {} trial {} into DB</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24, 8e780b59-84d5-4656-8821-2b1ad62755b7}</args></log4net.Error>
+2023-04-12 05:56:04,863 [1] DEBUG ChildRepository - 1
+2023-04-12 05:56:04,863 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task child {} trial {} into DB</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24, 0d4850e1-1720-404c-ae42-00b235d35c66}</args></log4net.Error>
+2023-04-12 05:56:04,866 [1] DEBUG ChildRepository - 1
+2023-04-12 05:56:04,866 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task child {} trial {} into DB</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24, 1daa2c72-c66f-4bfd-be6c-fc399bc9beba}</args></log4net.Error>
+2023-04-12 05:56:04,868 [1] DEBUG ChildRepository - 1
+2023-04-12 05:56:04,869 [1] INFO ChildRepository - Reading all children!
+2023-04-12 05:56:04,869 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:03:26,204 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:03:26,252 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:03:36,813 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:03:36,814 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:29:23,902 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:29:23,969 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:29:23,971 [1] INFO TrialRepository - Reading all trials
+2023-04-12 06:29:23,974 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 06:30:22,761 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:30:22,761 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:30:22,763 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{3ee027b2-ac97-470c-b3bb-5a15cde92e71}</args></log4net.Error>
+2023-04-12 06:30:22,785 [1] DEBUG ChildRepository - {}
+2023-04-12 06:30:22,785 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1a4ecc8b-78e0-414d-b239-67b5504dcae0}</args></log4net.Error>
+2023-04-12 06:30:22,788 [1] DEBUG ChildRepository - {}
+2023-04-12 06:30:22,788 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{01647324-f567-4cdc-88a5-7cf83e8159f4}</args></log4net.Error>
+2023-04-12 06:30:22,791 [1] DEBUG ChildRepository - {}
+2023-04-12 06:30:22,791 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{5d90c723-6fa6-4f70-a777-d67344675187}</args></log4net.Error>
+2023-04-12 06:30:22,793 [1] DEBUG ChildRepository - {}
+2023-04-12 06:30:22,793 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{02156a07-b69d-47fb-be90-e162f0ab536b}</args></log4net.Error>
+2023-04-12 06:31:22,506 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:31:22,587 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:31:22,590 [1] INFO TrialRepository - Reading all trials
+2023-04-12 06:31:22,592 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 06:31:27,605 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:31:27,606 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:31:27,608 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{3ee027b2-ac97-470c-b3bb-5a15cde92e71}</args></log4net.Error>
+2023-04-12 06:31:27,631 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:27,632 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1a4ecc8b-78e0-414d-b239-67b5504dcae0}</args></log4net.Error>
+2023-04-12 06:31:27,636 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:27,636 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{01647324-f567-4cdc-88a5-7cf83e8159f4}</args></log4net.Error>
+2023-04-12 06:31:27,649 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:27,649 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{5d90c723-6fa6-4f70-a777-d67344675187}</args></log4net.Error>
+2023-04-12 06:31:27,652 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:27,652 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{02156a07-b69d-47fb-be90-e162f0ab536b}</args></log4net.Error>
+2023-04-12 06:31:27,657 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:27,657 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{7553306c-5ef9-4ca5-9b5a-ea20080192b5}</args></log4net.Error>
+2023-04-12 06:31:27,660 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:27,660 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{e4be7b67-0ce6-4086-bed8-99e1c8545832}</args></log4net.Error>
+2023-04-12 06:31:27,662 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:27,662 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}</args></log4net.Error>
+2023-04-12 06:31:27,664 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7}
+2023-04-12 06:31:27,664 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1f9223bd-dcad-431b-855e-d82f6404c6d2}</args></log4net.Error>
+2023-04-12 06:31:27,666 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550}
+2023-04-12 06:31:27,666 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{c9b49f34-9feb-436e-8876-436575684400}</args></log4net.Error>
+2023-04-12 06:31:27,668 [1] DEBUG ChildRepository - {41acd2a1-dee9-48e4-8cfd-9b87a7918bab}
+2023-04-12 06:31:27,668 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f467f47e-7d91-4254-bb4e-14fd0e199ff2}</args></log4net.Error>
+2023-04-12 06:31:27,670 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 2b67147d-f343-49c1-8704-78f5825f0550, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:31:27,671 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{60d3d6b2-0201-4aae-8d55-23309acb6a9a}</args></log4net.Error>
+2023-04-12 06:31:27,673 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 31c31511-56bd-4a10-a4ab-9d165afe0777, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:31:27,673 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}</args></log4net.Error>
+2023-04-12 06:31:27,675 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550, 8e780b59-84d5-4656-8821-2b1ad62755b7, 0d4850e1-1720-404c-ae42-00b235d35c66, 1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:33,004 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:31:33,005 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:31:33,005 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{3ee027b2-ac97-470c-b3bb-5a15cde92e71}</args></log4net.Error>
+2023-04-12 06:31:33,010 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:33,010 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1a4ecc8b-78e0-414d-b239-67b5504dcae0}</args></log4net.Error>
+2023-04-12 06:31:33,013 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:33,013 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{01647324-f567-4cdc-88a5-7cf83e8159f4}</args></log4net.Error>
+2023-04-12 06:31:33,015 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:33,015 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{5d90c723-6fa6-4f70-a777-d67344675187}</args></log4net.Error>
+2023-04-12 06:31:33,019 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:33,019 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{02156a07-b69d-47fb-be90-e162f0ab536b}</args></log4net.Error>
+2023-04-12 06:31:33,021 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:33,021 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{7553306c-5ef9-4ca5-9b5a-ea20080192b5}</args></log4net.Error>
+2023-04-12 06:31:33,023 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:33,023 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{e4be7b67-0ce6-4086-bed8-99e1c8545832}</args></log4net.Error>
+2023-04-12 06:31:33,025 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:33,025 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}</args></log4net.Error>
+2023-04-12 06:31:33,027 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7}
+2023-04-12 06:31:33,027 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1f9223bd-dcad-431b-855e-d82f6404c6d2}</args></log4net.Error>
+2023-04-12 06:31:33,029 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550}
+2023-04-12 06:31:33,029 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{c9b49f34-9feb-436e-8876-436575684400}</args></log4net.Error>
+2023-04-12 06:31:33,031 [1] DEBUG ChildRepository - {41acd2a1-dee9-48e4-8cfd-9b87a7918bab}
+2023-04-12 06:31:33,031 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f467f47e-7d91-4254-bb4e-14fd0e199ff2}</args></log4net.Error>
+2023-04-12 06:31:33,033 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 2b67147d-f343-49c1-8704-78f5825f0550, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:31:33,033 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{60d3d6b2-0201-4aae-8d55-23309acb6a9a}</args></log4net.Error>
+2023-04-12 06:31:33,035 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 31c31511-56bd-4a10-a4ab-9d165afe0777, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:31:33,035 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}</args></log4net.Error>
+2023-04-12 06:31:33,037 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550, 8e780b59-84d5-4656-8821-2b1ad62755b7, 0d4850e1-1720-404c-ae42-00b235d35c66, 1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:37,446 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:31:37,447 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:31:37,447 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{3ee027b2-ac97-470c-b3bb-5a15cde92e71}</args></log4net.Error>
+2023-04-12 06:31:37,450 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:37,451 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1a4ecc8b-78e0-414d-b239-67b5504dcae0}</args></log4net.Error>
+2023-04-12 06:31:37,453 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:37,453 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{01647324-f567-4cdc-88a5-7cf83e8159f4}</args></log4net.Error>
+2023-04-12 06:31:37,455 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:37,455 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{5d90c723-6fa6-4f70-a777-d67344675187}</args></log4net.Error>
+2023-04-12 06:31:37,457 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:37,457 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{02156a07-b69d-47fb-be90-e162f0ab536b}</args></log4net.Error>
+2023-04-12 06:31:37,459 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:37,459 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{7553306c-5ef9-4ca5-9b5a-ea20080192b5}</args></log4net.Error>
+2023-04-12 06:31:37,461 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:37,461 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{e4be7b67-0ce6-4086-bed8-99e1c8545832}</args></log4net.Error>
+2023-04-12 06:31:37,464 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:37,464 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}</args></log4net.Error>
+2023-04-12 06:31:37,466 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7}
+2023-04-12 06:31:37,466 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1f9223bd-dcad-431b-855e-d82f6404c6d2}</args></log4net.Error>
+2023-04-12 06:31:37,468 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550}
+2023-04-12 06:31:37,468 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{c9b49f34-9feb-436e-8876-436575684400}</args></log4net.Error>
+2023-04-12 06:31:37,470 [1] DEBUG ChildRepository - {41acd2a1-dee9-48e4-8cfd-9b87a7918bab}
+2023-04-12 06:31:37,470 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f467f47e-7d91-4254-bb4e-14fd0e199ff2}</args></log4net.Error>
+2023-04-12 06:31:37,472 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 2b67147d-f343-49c1-8704-78f5825f0550, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:31:37,472 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{60d3d6b2-0201-4aae-8d55-23309acb6a9a}</args></log4net.Error>
+2023-04-12 06:31:37,474 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 31c31511-56bd-4a10-a4ab-9d165afe0777, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:31:37,474 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}</args></log4net.Error>
+2023-04-12 06:31:37,477 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550, 8e780b59-84d5-4656-8821-2b1ad62755b7, 0d4850e1-1720-404c-ae42-00b235d35c66, 1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:47,821 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:31:47,822 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:31:47,822 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{3ee027b2-ac97-470c-b3bb-5a15cde92e71}</args></log4net.Error>
+2023-04-12 06:31:47,826 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:47,826 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1a4ecc8b-78e0-414d-b239-67b5504dcae0}</args></log4net.Error>
+2023-04-12 06:31:47,829 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:47,829 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{01647324-f567-4cdc-88a5-7cf83e8159f4}</args></log4net.Error>
+2023-04-12 06:31:47,832 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:47,832 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{5d90c723-6fa6-4f70-a777-d67344675187}</args></log4net.Error>
+2023-04-12 06:31:47,835 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:47,835 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{02156a07-b69d-47fb-be90-e162f0ab536b}</args></log4net.Error>
+2023-04-12 06:31:47,837 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:47,837 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{7553306c-5ef9-4ca5-9b5a-ea20080192b5}</args></log4net.Error>
+2023-04-12 06:31:47,839 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:47,839 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{e4be7b67-0ce6-4086-bed8-99e1c8545832}</args></log4net.Error>
+2023-04-12 06:31:47,841 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:47,841 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}</args></log4net.Error>
+2023-04-12 06:31:47,843 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7}
+2023-04-12 06:31:47,843 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1f9223bd-dcad-431b-855e-d82f6404c6d2}</args></log4net.Error>
+2023-04-12 06:31:47,844 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550}
+2023-04-12 06:31:47,845 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{c9b49f34-9feb-436e-8876-436575684400}</args></log4net.Error>
+2023-04-12 06:31:47,846 [1] DEBUG ChildRepository - {41acd2a1-dee9-48e4-8cfd-9b87a7918bab}
+2023-04-12 06:31:47,846 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f467f47e-7d91-4254-bb4e-14fd0e199ff2}</args></log4net.Error>
+2023-04-12 06:31:47,848 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 2b67147d-f343-49c1-8704-78f5825f0550, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:31:47,848 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{60d3d6b2-0201-4aae-8d55-23309acb6a9a}</args></log4net.Error>
+2023-04-12 06:31:47,851 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 31c31511-56bd-4a10-a4ab-9d165afe0777, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:31:47,851 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}</args></log4net.Error>
+2023-04-12 06:31:47,854 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550, 8e780b59-84d5-4656-8821-2b1ad62755b7, 0d4850e1-1720-404c-ae42-00b235d35c66, 1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:51,169 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:31:51,170 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:31:51,170 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{3ee027b2-ac97-470c-b3bb-5a15cde92e71}</args></log4net.Error>
+2023-04-12 06:31:51,174 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:51,174 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1a4ecc8b-78e0-414d-b239-67b5504dcae0}</args></log4net.Error>
+2023-04-12 06:31:51,176 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:51,176 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{01647324-f567-4cdc-88a5-7cf83e8159f4}</args></log4net.Error>
+2023-04-12 06:31:51,178 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:51,179 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{5d90c723-6fa6-4f70-a777-d67344675187}</args></log4net.Error>
+2023-04-12 06:31:51,180 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:51,181 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{02156a07-b69d-47fb-be90-e162f0ab536b}</args></log4net.Error>
+2023-04-12 06:31:51,183 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:51,183 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{7553306c-5ef9-4ca5-9b5a-ea20080192b5}</args></log4net.Error>
+2023-04-12 06:31:51,185 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:51,185 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{e4be7b67-0ce6-4086-bed8-99e1c8545832}</args></log4net.Error>
+2023-04-12 06:31:51,188 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:51,188 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}</args></log4net.Error>
+2023-04-12 06:31:51,190 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7}
+2023-04-12 06:31:51,190 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1f9223bd-dcad-431b-855e-d82f6404c6d2}</args></log4net.Error>
+2023-04-12 06:31:51,192 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550}
+2023-04-12 06:31:51,192 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{c9b49f34-9feb-436e-8876-436575684400}</args></log4net.Error>
+2023-04-12 06:31:51,194 [1] DEBUG ChildRepository - {41acd2a1-dee9-48e4-8cfd-9b87a7918bab}
+2023-04-12 06:31:51,194 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f467f47e-7d91-4254-bb4e-14fd0e199ff2}</args></log4net.Error>
+2023-04-12 06:31:51,196 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 2b67147d-f343-49c1-8704-78f5825f0550, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:31:51,196 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{60d3d6b2-0201-4aae-8d55-23309acb6a9a}</args></log4net.Error>
+2023-04-12 06:31:51,198 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 31c31511-56bd-4a10-a4ab-9d165afe0777, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:31:51,198 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}</args></log4net.Error>
+2023-04-12 06:31:51,201 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550, 8e780b59-84d5-4656-8821-2b1ad62755b7, 0d4850e1-1720-404c-ae42-00b235d35c66, 1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:52,589 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:31:52,590 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:31:52,590 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{3ee027b2-ac97-470c-b3bb-5a15cde92e71}</args></log4net.Error>
+2023-04-12 06:31:52,594 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:52,594 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1a4ecc8b-78e0-414d-b239-67b5504dcae0}</args></log4net.Error>
+2023-04-12 06:31:52,597 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:52,597 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{01647324-f567-4cdc-88a5-7cf83e8159f4}</args></log4net.Error>
+2023-04-12 06:31:52,600 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:52,600 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{5d90c723-6fa6-4f70-a777-d67344675187}</args></log4net.Error>
+2023-04-12 06:31:52,603 [1] DEBUG ChildRepository - {}
+2023-04-12 06:31:52,603 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{02156a07-b69d-47fb-be90-e162f0ab536b}</args></log4net.Error>
+2023-04-12 06:31:52,605 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:52,605 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{7553306c-5ef9-4ca5-9b5a-ea20080192b5}</args></log4net.Error>
+2023-04-12 06:31:52,607 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:52,607 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{e4be7b67-0ce6-4086-bed8-99e1c8545832}</args></log4net.Error>
+2023-04-12 06:31:52,608 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:31:52,609 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}</args></log4net.Error>
+2023-04-12 06:31:52,610 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7}
+2023-04-12 06:31:52,610 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1f9223bd-dcad-431b-855e-d82f6404c6d2}</args></log4net.Error>
+2023-04-12 06:31:52,612 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550}
+2023-04-12 06:31:52,612 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{c9b49f34-9feb-436e-8876-436575684400}</args></log4net.Error>
+2023-04-12 06:31:52,614 [1] DEBUG ChildRepository - {41acd2a1-dee9-48e4-8cfd-9b87a7918bab}
+2023-04-12 06:31:52,614 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f467f47e-7d91-4254-bb4e-14fd0e199ff2}</args></log4net.Error>
+2023-04-12 06:31:52,616 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 2b67147d-f343-49c1-8704-78f5825f0550, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:31:52,616 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{60d3d6b2-0201-4aae-8d55-23309acb6a9a}</args></log4net.Error>
+2023-04-12 06:31:52,618 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 31c31511-56bd-4a10-a4ab-9d165afe0777, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:31:52,618 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}</args></log4net.Error>
+2023-04-12 06:31:52,621 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550, 8e780b59-84d5-4656-8821-2b1ad62755b7, 0d4850e1-1720-404c-ae42-00b235d35c66, 1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:33:33,996 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:33:34,063 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:33:34,066 [1] INFO TrialRepository - Reading all trials
+2023-04-12 06:33:34,068 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 06:33:35,766 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:33:35,767 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:33:35,768 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{3ee027b2-ac97-470c-b3bb-5a15cde92e71}</args></log4net.Error>
+2023-04-12 06:33:35,788 [1] DEBUG ChildRepository - {}
+2023-04-12 06:33:35,788 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1a4ecc8b-78e0-414d-b239-67b5504dcae0}</args></log4net.Error>
+2023-04-12 06:33:35,790 [1] DEBUG ChildRepository - {}
+2023-04-12 06:33:35,790 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{01647324-f567-4cdc-88a5-7cf83e8159f4}</args></log4net.Error>
+2023-04-12 06:33:35,795 [1] DEBUG ChildRepository - {}
+2023-04-12 06:33:35,795 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{5d90c723-6fa6-4f70-a777-d67344675187}</args></log4net.Error>
+2023-04-12 06:33:35,797 [1] DEBUG ChildRepository - {}
+2023-04-12 06:33:35,797 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{02156a07-b69d-47fb-be90-e162f0ab536b}</args></log4net.Error>
+2023-04-12 06:33:35,803 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:33:35,803 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{7553306c-5ef9-4ca5-9b5a-ea20080192b5}</args></log4net.Error>
+2023-04-12 06:33:35,805 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:33:35,805 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{e4be7b67-0ce6-4086-bed8-99e1c8545832}</args></log4net.Error>
+2023-04-12 06:33:35,808 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:33:35,808 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}</args></log4net.Error>
+2023-04-12 06:33:35,811 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7}
+2023-04-12 06:33:35,811 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1f9223bd-dcad-431b-855e-d82f6404c6d2}</args></log4net.Error>
+2023-04-12 06:33:35,813 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550}
+2023-04-12 06:33:35,813 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{c9b49f34-9feb-436e-8876-436575684400}</args></log4net.Error>
+2023-04-12 06:33:35,816 [1] DEBUG ChildRepository - {41acd2a1-dee9-48e4-8cfd-9b87a7918bab}
+2023-04-12 06:33:35,816 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f467f47e-7d91-4254-bb4e-14fd0e199ff2}</args></log4net.Error>
+2023-04-12 06:33:35,819 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 2b67147d-f343-49c1-8704-78f5825f0550, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:33:35,819 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{60d3d6b2-0201-4aae-8d55-23309acb6a9a}</args></log4net.Error>
+2023-04-12 06:33:35,822 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 31c31511-56bd-4a10-a4ab-9d165afe0777, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:33:35,822 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}</args></log4net.Error>
+2023-04-12 06:33:35,825 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550, 8e780b59-84d5-4656-8821-2b1ad62755b7, 0d4850e1-1720-404c-ae42-00b235d35c66, 1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:33:40,112 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:33:40,113 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:33:40,113 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{3ee027b2-ac97-470c-b3bb-5a15cde92e71}</args></log4net.Error>
+2023-04-12 06:33:40,116 [1] DEBUG ChildRepository - {}
+2023-04-12 06:33:40,116 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1a4ecc8b-78e0-414d-b239-67b5504dcae0}</args></log4net.Error>
+2023-04-12 06:33:40,118 [1] DEBUG ChildRepository - {}
+2023-04-12 06:33:40,118 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{01647324-f567-4cdc-88a5-7cf83e8159f4}</args></log4net.Error>
+2023-04-12 06:33:40,120 [1] DEBUG ChildRepository - {}
+2023-04-12 06:33:40,120 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{5d90c723-6fa6-4f70-a777-d67344675187}</args></log4net.Error>
+2023-04-12 06:33:40,122 [1] DEBUG ChildRepository - {}
+2023-04-12 06:33:40,122 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{02156a07-b69d-47fb-be90-e162f0ab536b}</args></log4net.Error>
+2023-04-12 06:33:40,124 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:33:40,124 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{7553306c-5ef9-4ca5-9b5a-ea20080192b5}</args></log4net.Error>
+2023-04-12 06:33:40,126 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:33:40,126 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{e4be7b67-0ce6-4086-bed8-99e1c8545832}</args></log4net.Error>
+2023-04-12 06:33:40,130 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:33:40,130 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}</args></log4net.Error>
+2023-04-12 06:33:40,132 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7}
+2023-04-12 06:33:40,132 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1f9223bd-dcad-431b-855e-d82f6404c6d2}</args></log4net.Error>
+2023-04-12 06:33:40,135 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550}
+2023-04-12 06:33:40,135 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{c9b49f34-9feb-436e-8876-436575684400}</args></log4net.Error>
+2023-04-12 06:33:40,137 [1] DEBUG ChildRepository - {41acd2a1-dee9-48e4-8cfd-9b87a7918bab}
+2023-04-12 06:33:40,137 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f467f47e-7d91-4254-bb4e-14fd0e199ff2}</args></log4net.Error>
+2023-04-12 06:33:40,140 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 2b67147d-f343-49c1-8704-78f5825f0550, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:33:40,140 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{60d3d6b2-0201-4aae-8d55-23309acb6a9a}</args></log4net.Error>
+2023-04-12 06:33:40,143 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 31c31511-56bd-4a10-a4ab-9d165afe0777, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:33:40,143 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}</args></log4net.Error>
+2023-04-12 06:33:40,146 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550, 8e780b59-84d5-4656-8821-2b1ad62755b7, 0d4850e1-1720-404c-ae42-00b235d35c66, 1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:33:45,038 [1] INFO ChildRepository - Reading all children!
+2023-04-12 06:33:45,038 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 06:33:45,038 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{3ee027b2-ac97-470c-b3bb-5a15cde92e71}</args></log4net.Error>
+2023-04-12 06:33:45,041 [1] DEBUG ChildRepository - {}
+2023-04-12 06:33:45,041 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1a4ecc8b-78e0-414d-b239-67b5504dcae0}</args></log4net.Error>
+2023-04-12 06:33:45,043 [1] DEBUG ChildRepository - {}
+2023-04-12 06:33:45,043 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{01647324-f567-4cdc-88a5-7cf83e8159f4}</args></log4net.Error>
+2023-04-12 06:33:45,045 [1] DEBUG ChildRepository - {}
+2023-04-12 06:33:45,045 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{5d90c723-6fa6-4f70-a777-d67344675187}</args></log4net.Error>
+2023-04-12 06:33:45,046 [1] DEBUG ChildRepository - {}
+2023-04-12 06:33:45,047 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{02156a07-b69d-47fb-be90-e162f0ab536b}</args></log4net.Error>
+2023-04-12 06:33:45,048 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:33:45,048 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{7553306c-5ef9-4ca5-9b5a-ea20080192b5}</args></log4net.Error>
+2023-04-12 06:33:45,050 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:33:45,050 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{e4be7b67-0ce6-4086-bed8-99e1c8545832}</args></log4net.Error>
+2023-04-12 06:33:45,052 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 06:33:45,052 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}</args></log4net.Error>
+2023-04-12 06:33:45,054 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7}
+2023-04-12 06:33:45,054 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1f9223bd-dcad-431b-855e-d82f6404c6d2}</args></log4net.Error>
+2023-04-12 06:33:45,055 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550}
+2023-04-12 06:33:45,055 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{c9b49f34-9feb-436e-8876-436575684400}</args></log4net.Error>
+2023-04-12 06:33:45,057 [1] DEBUG ChildRepository - {41acd2a1-dee9-48e4-8cfd-9b87a7918bab}
+2023-04-12 06:33:45,057 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f467f47e-7d91-4254-bb4e-14fd0e199ff2}</args></log4net.Error>
+2023-04-12 06:33:45,060 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 2b67147d-f343-49c1-8704-78f5825f0550, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:33:45,060 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{60d3d6b2-0201-4aae-8d55-23309acb6a9a}</args></log4net.Error>
+2023-04-12 06:33:45,062 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 31c31511-56bd-4a10-a4ab-9d165afe0777, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 06:33:45,062 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}</args></log4net.Error>
+2023-04-12 06:33:45,064 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550, 8e780b59-84d5-4656-8821-2b1ad62755b7, 0d4850e1-1720-404c-ae42-00b235d35c66, 1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 12:08:18,352 [1] INFO ChildRepository - Reading all children!
+2023-04-12 12:08:18,576 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 12:08:18,600 [1] INFO TrialRepository - Reading all trials
+2023-04-12 12:08:18,600 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 12:08:28,045 [1] INFO ChildRepository - Reading all children!
+2023-04-12 12:08:28,045 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 12:08:28,045 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{3ee027b2-ac97-470c-b3bb-5a15cde92e71}</args></log4net.Error>
+2023-04-12 12:08:28,186 [1] DEBUG ChildRepository - {}
+2023-04-12 12:08:28,194 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1a4ecc8b-78e0-414d-b239-67b5504dcae0}</args></log4net.Error>
+2023-04-12 12:08:28,194 [1] DEBUG ChildRepository - {}
+2023-04-12 12:08:28,194 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{01647324-f567-4cdc-88a5-7cf83e8159f4}</args></log4net.Error>
+2023-04-12 12:08:28,202 [1] DEBUG ChildRepository - {}
+2023-04-12 12:08:28,202 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{5d90c723-6fa6-4f70-a777-d67344675187}</args></log4net.Error>
+2023-04-12 12:08:28,210 [1] DEBUG ChildRepository - {}
+2023-04-12 12:08:28,210 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{02156a07-b69d-47fb-be90-e162f0ab536b}</args></log4net.Error>
+2023-04-12 12:08:28,226 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 12:08:28,226 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{7553306c-5ef9-4ca5-9b5a-ea20080192b5}</args></log4net.Error>
+2023-04-12 12:08:28,234 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 12:08:28,234 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{e4be7b67-0ce6-4086-bed8-99e1c8545832}</args></log4net.Error>
+2023-04-12 12:08:28,234 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 12:08:28,234 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}</args></log4net.Error>
+2023-04-12 12:08:28,242 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7}
+2023-04-12 12:08:28,242 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1f9223bd-dcad-431b-855e-d82f6404c6d2}</args></log4net.Error>
+2023-04-12 12:08:28,242 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550}
+2023-04-12 12:08:28,242 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{c9b49f34-9feb-436e-8876-436575684400}</args></log4net.Error>
+2023-04-12 12:08:28,250 [1] DEBUG ChildRepository - {41acd2a1-dee9-48e4-8cfd-9b87a7918bab}
+2023-04-12 12:08:28,250 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f467f47e-7d91-4254-bb4e-14fd0e199ff2}</args></log4net.Error>
+2023-04-12 12:08:28,258 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 2b67147d-f343-49c1-8704-78f5825f0550, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 12:08:28,258 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{60d3d6b2-0201-4aae-8d55-23309acb6a9a}</args></log4net.Error>
+2023-04-12 12:08:28,258 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 31c31511-56bd-4a10-a4ab-9d165afe0777, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 12:08:28,258 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}</args></log4net.Error>
+2023-04-12 12:08:28,266 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550, 8e780b59-84d5-4656-8821-2b1ad62755b7, 0d4850e1-1720-404c-ae42-00b235d35c66, 1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 12:08:39,151 [1] INFO ChildRepository - Reading all children!
+2023-04-12 12:08:39,151 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}}
+2023-04-12 12:08:39,151 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{3ee027b2-ac97-470c-b3bb-5a15cde92e71}</args></log4net.Error>
+2023-04-12 12:08:39,159 [1] DEBUG ChildRepository - {}
+2023-04-12 12:08:39,159 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1a4ecc8b-78e0-414d-b239-67b5504dcae0}</args></log4net.Error>
+2023-04-12 12:08:39,167 [1] DEBUG ChildRepository - {}
+2023-04-12 12:08:39,167 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{01647324-f567-4cdc-88a5-7cf83e8159f4}</args></log4net.Error>
+2023-04-12 12:08:39,175 [1] DEBUG ChildRepository - {}
+2023-04-12 12:08:39,175 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{5d90c723-6fa6-4f70-a777-d67344675187}</args></log4net.Error>
+2023-04-12 12:08:39,175 [1] DEBUG ChildRepository - {}
+2023-04-12 12:08:39,175 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{02156a07-b69d-47fb-be90-e162f0ab536b}</args></log4net.Error>
+2023-04-12 12:08:39,183 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 12:08:39,183 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{7553306c-5ef9-4ca5-9b5a-ea20080192b5}</args></log4net.Error>
+2023-04-12 12:08:39,191 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 12:08:39,191 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{e4be7b67-0ce6-4086-bed8-99e1c8545832}</args></log4net.Error>
+2023-04-12 12:08:39,199 [1] DEBUG ChildRepository - {1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 12:08:39,199 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}</args></log4net.Error>
+2023-04-12 12:08:39,199 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7}
+2023-04-12 12:08:39,199 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{1f9223bd-dcad-431b-855e-d82f6404c6d2}</args></log4net.Error>
+2023-04-12 12:08:39,207 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550}
+2023-04-12 12:08:39,207 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{c9b49f34-9feb-436e-8876-436575684400}</args></log4net.Error>
+2023-04-12 12:08:39,215 [1] DEBUG ChildRepository - {41acd2a1-dee9-48e4-8cfd-9b87a7918bab}
+2023-04-12 12:08:39,215 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{f467f47e-7d91-4254-bb4e-14fd0e199ff2}</args></log4net.Error>
+2023-04-12 12:08:39,223 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 2b67147d-f343-49c1-8704-78f5825f0550, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 12:08:39,223 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{60d3d6b2-0201-4aae-8d55-23309acb6a9a}</args></log4net.Error>
+2023-04-12 12:08:39,231 [1] DEBUG ChildRepository - {8e780b59-84d5-4656-8821-2b1ad62755b7, 31c31511-56bd-4a10-a4ab-9d165afe0777, ed2a4eab-3d1a-4acf-b1aa-92b949b7d419}
+2023-04-12 12:08:39,231 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task, reading all trials for children {}</format><args>{2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}</args></log4net.Error>
+2023-04-12 12:08:39,239 [1] DEBUG ChildRepository - {2b67147d-f343-49c1-8704-78f5825f0550, 8e780b59-84d5-4656-8821-2b1ad62755b7, 0d4850e1-1720-404c-ae42-00b235d35c66, 1daa2c72-c66f-4bfd-be6c-fc399bc9beba}
+2023-04-12 12:08:48,013 [1] INFO TrialRepository - Reading all trials
+2023-04-12 12:08:48,013 [1] DEBUG TrialRepository - {Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, Alergat Alergare 1 km jumate 1500, copitit dat la copita 1500, copitit dat la copita 1500, ceva de test 1500, acum la lab 1500}
+2023-04-12 12:09:04,200 [1] DEBUG ChildRepository - insert into "Child" (id, "firstName", "lastName", "age") values (@id, @fName, @lName, @age);
+2023-04-12 12:09:04,232 [1] INFO ChildRepository - 1
+2023-04-12 12:09:04,232 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task child {} trial {} into DB</format><args>{b03417b1-7f18-4ccd-a6b2-07b37d1fffdf, 2b67147d-f343-49c1-8704-78f5825f0550}</args></log4net.Error>
+2023-04-12 12:09:04,272 [1] DEBUG ChildRepository - 1
+2023-04-12 12:09:04,272 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task child {} trial {} into DB</format><args>{b03417b1-7f18-4ccd-a6b2-07b37d1fffdf, 8e780b59-84d5-4656-8821-2b1ad62755b7}</args></log4net.Error>
+2023-04-12 12:09:04,280 [1] DEBUG ChildRepository - 1
+2023-04-12 12:09:04,280 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task child {} trial {} into DB</format><args>{b03417b1-7f18-4ccd-a6b2-07b37d1fffdf, 0d4850e1-1720-404c-ae42-00b235d35c66}</args></log4net.Error>
+2023-04-12 12:09:04,288 [1] DEBUG ChildRepository - 1
+2023-04-12 12:09:04,288 [1] INFO ChildRepository - <log4net.Error>Exception during StringFormat: Input string was not in a correct format. <format>Saving task child {} trial {} into DB</format><args>{b03417b1-7f18-4ccd-a6b2-07b37d1fffdf, 1daa2c72-c66f-4bfd-be6c-fc399bc9beba}</args></log4net.Error>
+2023-04-12 12:09:04,296 [1] DEBUG ChildRepository - 1
+2023-04-12 12:09:04,296 [1] INFO ChildRepository - Reading all children!
+2023-04-12 12:09:04,304 [1] INFO ChildRepository - {Entity{id=3ee027b2-ac97-470c-b3bb-5a15cde92e71}, Entity{id=1a4ecc8b-78e0-414d-b239-67b5504dcae0}, Entity{id=01647324-f567-4cdc-88a5-7cf83e8159f4}, Entity{id=5d90c723-6fa6-4f70-a777-d67344675187}, Entity{id=02156a07-b69d-47fb-be90-e162f0ab536b}, Entity{id=7553306c-5ef9-4ca5-9b5a-ea20080192b5}, Entity{id=e4be7b67-0ce6-4086-bed8-99e1c8545832}, Entity{id=f3f9d75c-2a1e-4856-b0e5-d1fcd740be94}, Entity{id=1f9223bd-dcad-431b-855e-d82f6404c6d2}, Entity{id=c9b49f34-9feb-436e-8876-436575684400}, Entity{id=f467f47e-7d91-4254-bb4e-14fd0e199ff2}, Entity{id=60d3d6b2-0201-4aae-8d55-23309acb6a9a}, Entity{id=2a73610d-bc40-4eda-ae6d-dfeef2ff1f24}, Entity{id=b03417b1-7f18-4ccd-a6b2-07b37d1fffdf}}

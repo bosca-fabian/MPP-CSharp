@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="AppModel" namespace="MPPCSharp.Models">
+	<class name="Child" table="&quot;Child&quot;">
+		<id name="id" type="guid" column="&quot;id&quot;"></id>
+		<property name="firstName" column="&quot;firstName&quot;"></property>
+		<property name="lastName" column="&quot;lastName&quot;"></property>
+		<property name="age" type="int" column="&quot;age&quot;"></property>
+		<property name="noTrials" type="int" column="&quot;noTrials&quot;"></property>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,5 @@
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\obj\Debug\AppModel.csproj.AssemblyReference.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\obj\Debug\AppModel.csproj.SuggestedBindingRedirects.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\obj\Debug\AppModel.Resources.resources
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\obj\Debug\AppModel.csproj.GenerateResource.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\obj\Debug\AppModel.csproj.CoreCompileInputs.cache

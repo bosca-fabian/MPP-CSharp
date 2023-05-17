@@ -1,0 +1,2 @@
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\obj\Debug\ConnectionDBLibrary.csproj.AssemblyReference.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\obj\Debug\ConnectionDBLibrary.csproj.CoreCompileInputs.cache

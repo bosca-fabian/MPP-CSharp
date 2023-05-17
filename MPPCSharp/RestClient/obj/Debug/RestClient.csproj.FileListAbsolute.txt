@@ -1,0 +1,16 @@
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\obj\Debug\RestClient.csproj.AssemblyReference.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\obj\Debug\RestClient.csproj.SuggestedBindingRedirects.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\obj\Debug\RestClient.csproj.CoreCompileInputs.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\bin\Debug\RestClient.exe.config
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\bin\Debug\RestClient.exe
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\bin\Debug\RestClient.pdb
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\bin\Debug\AppModel.dll
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\bin\Debug\Newtonsoft.Json.dll
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\bin\Debug\System.Net.Http.Formatting.dll
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\bin\Debug\AppModel.pdb
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\bin\Debug\AppModel.dll.config
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\bin\Debug\Newtonsoft.Json.xml
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\bin\Debug\System.Net.Http.Formatting.xml
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\obj\Debug\RestClient.csproj.CopyComplete
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\obj\Debug\RestClient.exe
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\MPPCSharp\RestClient\obj\Debug\RestClient.pdb

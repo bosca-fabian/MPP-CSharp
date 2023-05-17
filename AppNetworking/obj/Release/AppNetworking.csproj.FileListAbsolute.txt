@@ -1,0 +1,16 @@
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\obj\Release\AppNetworking.csproj.AssemblyReference.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\obj\Release\AppNetworking.Properties.Resources.resources
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\obj\Release\AppNetworking.csproj.GenerateResource.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\obj\Release\AppNetworking.csproj.CoreCompileInputs.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\bin\Release\AppNetworking.dll.config
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\bin\Release\AppNetworking.dll
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\bin\Release\AppNetworking.pdb
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\bin\Release\AppModel.dll
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\bin\Release\AppServices.dll
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\bin\Release\AppModel.pdb
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\bin\Release\AppModel.dll.config
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\bin\Release\AppServices.pdb
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\bin\Release\AppServices.dll.config
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\obj\Release\AppNetworking.csproj.CopyComplete
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\obj\Release\AppNetworking.dll
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppNetworking\obj\Release\AppNetworking.pdb

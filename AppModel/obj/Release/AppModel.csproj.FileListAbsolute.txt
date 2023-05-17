@@ -1,0 +1,9 @@
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppModel\obj\Release\AppModel.csproj.AssemblyReference.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppModel\obj\Release\AppModel.Properties.Resources.resources
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppModel\obj\Release\AppModel.csproj.GenerateResource.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppModel\obj\Release\AppModel.csproj.CoreCompileInputs.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppModel\bin\Release\AppModel.dll.config
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppModel\bin\Release\AppModel.dll
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppModel\bin\Release\AppModel.pdb
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppModel\obj\Release\AppModel.dll
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppModel\obj\Release\AppModel.pdb

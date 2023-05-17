@@ -1,0 +1,13 @@
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppServices\obj\Release\AppServices.csproj.AssemblyReference.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppServices\obj\Release\AppServices.Properties.Resources.resources
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppServices\obj\Release\AppServices.csproj.GenerateResource.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppServices\obj\Release\AppServices.csproj.CoreCompileInputs.cache
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppServices\bin\Release\AppServices.dll.config
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppServices\bin\Release\AppServices.dll
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppServices\bin\Release\AppServices.pdb
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppServices\bin\Release\AppModel.dll
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppServices\bin\Release\AppModel.pdb
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppServices\bin\Release\AppModel.dll.config
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppServices\obj\Release\AppServices.csproj.CopyComplete
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppServices\obj\Release\AppServices.dll
+D:\Altele de pe la faculta\Sem4\MPP\Laburi\AppServices\obj\Release\AppServices.pdb
