@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AppPersistence.Interfaces
 {
-    public interface ChildTrialRepoInterface
+    public interface IChildTrialRepository
     {
         void addChildTrial(Guid childID, Guid trialID);
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MPPCSharp.Repository
 {
-    public interface EmployeeRepoInterface
+    public interface IEmployeeRepository
     {
         void add(Employee entity);
         void delete(Guid entity);

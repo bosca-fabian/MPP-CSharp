@@ -11,7 +11,7 @@ using AppPersistence.Interfaces;
 
 namespace MPPCSharp.Repository
 {
-    public class ChildTrialRepository : ChildTrialRepoInterface
+    public class ChildTrialRepository : IChildTrialRepository
     {
         IDictionary<string, string> props;
 

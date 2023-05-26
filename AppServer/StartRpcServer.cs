@@ -13,6 +13,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using AppNetworking.ProtoProtocols;
 using AppPersistence.ORM;
+using AppPersistence.Interfaces;
 
 namespace AppServer
 {
@@ -27,8 +28,8 @@ namespace AppServer
             props.Add("ConnectionString", GetConnectionStringByName("mpp"));
             Repository<Trial> trialRepo = new TrialRepository(props);
             Repository<Child> childRepository = new ChildRepoORM(props);
-            ChildTrialRepository childTrialRepository = new ChildTrialRepository(props);
-            EmployeeRepoInterface employeeRepo = new EmployeeRepository(props);
+            IChildTrialRepository childTrialRepository = new ChildTrialRepository(props);
+            IEmployeeRepository employeeRepo = new EmployeeRepository(props);
             IAppServices service = new AppServicesImpl(employeeRepo, childRepository, childTrialRepository, trialRepo);
 
             //SerialAppServer server = new SerialAppServer("127.0.0.1", 55556, service);

@@ -8,23 +8,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using AppPersistence.Interfaces;
 
 namespace AppServer
 {
     public class AppServicesImpl : IAppServices
     {
 
-        private EmployeeRepoInterface employeeRepository;
+        private IEmployeeRepository employeeRepository;
 
         private Repository<Child> childRepository;
 
-        private ChildTrialRepository childTrialRepository;
+        private IChildTrialRepository childTrialRepository;
 
         private Repository<Trial> trialRepository;
 
         private readonly IDictionary<Guid, IAppObserver> loggedEmployees;
 
-        public AppServicesImpl(EmployeeRepoInterface eRepo, Repository<Child> childRepository, ChildTrialRepository childTrialRepository, Repository<Trial> trialRepository)
+        public AppServicesImpl(IEmployeeRepository eRepo, Repository<Child> childRepository, IChildTrialRepository childTrialRepository, Repository<Trial> trialRepository)
         {
 
             this.employeeRepository = eRepo;

@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace MPPCSharp.Repository
 {
-    public class EmployeeRepository : EmployeeRepoInterface
+    public class EmployeeRepository : IEmployeeRepository
     {
         IDictionary<string, string> props;
 

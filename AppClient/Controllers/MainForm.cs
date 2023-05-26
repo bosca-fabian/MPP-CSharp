@@ -45,13 +45,6 @@ namespace MPPCSharp.Forms
             childTableDataGridView.Refresh();
         }
 
-        //private void MainForm_Load(object sender, EventArgs e)
-        //{
-        //    List<Child> children = this.appService.readAllChildren();
-        //    childTableView.DataSource = children;
-            
-        //}
-
         private void childTableView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -135,10 +128,6 @@ namespace MPPCSharp.Forms
 
         public void ChildReceived(Child child, List<Trial> trials)
         {
-            //List<Child> currentChildren = new List<Child>();
-            //currentChildren = (List<Child>)childTableDataGridView.DataSource;
-            //currentChildren.Add(child);
-            //childTableDataGridView.DataSource = currentChildren;
             childTableDataGridView.BeginInvoke((Action)delegate { handleChildren(); });
         }
     }
